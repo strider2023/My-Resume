@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121">
+    
+    <com.touchmenotapps.myresume.widgets.AppTextView 
+	    android:id="@+id/work_header_text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="right"
+        android:text="@string/work_exp"
+        android:textSize="65sp"
+        android:textColor="#FF3FB3D6"
+        android:layout_marginRight="-5dip"
+        android:paddingTop="2dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:layout_alignParentRight="true"/>
+    
+    <ScrollView 
+        android:id="@+id/work_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_below="@+id/work_header_text"
+        android:layout_margin="10dp"
+        android:scrollbars="none"
+        android:overScrollMode="never"
+        android:fadingEdge="none">
+	    
+        <LinearLayout
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="vertical">
+    	
+            <TextSwitcher
+	    		android:id="@+id/work_company_name_text" 
+			    android:layout_height="wrap_content"
+			    android:layout_width="match_parent" 
+			    android:singleLine="true"
+				android:ellipsize="marquee"
+				android:marqueeRepeatLimit="marquee_forever"
+				android:scrollHorizontally="true"/>
+				
+			<TextSwitcher
+	    		android:id="@+id/work_company_span_text" 
+			    android:layout_height="wrap_content"
+			    android:layout_width="match_parent" 
+			    android:singleLine="true"
+				android:ellipsize="marquee"
+				android:marqueeRepeatLimit="marquee_forever"
+				android:scrollHorizontally="true"/>
+				
+			<View 
+	            android:layout_marginLeft="20dp"
+        		android:layout_marginRight="20dp"
+				android:layout_marginTop="5dp"
+				android:layout_width="match_parent"
+				android:layout_height="1px"
+				android:background="@drawable/black_horizontal_divider"/>
+				    
+			<View 
+			    android:layout_marginLeft="20dp"
+        		android:layout_marginRight="20dp"
+			    android:layout_marginBottom="5dp"
+				android:layout_width="match_parent"
+				android:layout_height="1px"
+				android:background="@drawable/white_horizontal_divider"/>
+        
+	        <TextSwitcher
+	        	android:id="@+id/work_company_summary_text" 
+			    android:layout_height="wrap_content"
+			    android:layout_width="match_parent" 
+			    android:singleLine="true"
+				android:ellipsize="marquee"
+				android:marqueeRepeatLimit="marquee_forever"
+				android:layout_marginTop="10dp"
+				android:scrollHorizontally="true"/>
+	        
+	        <View 
+	            android:layout_marginLeft="20dp"
+        		android:layout_marginRight="20dp"
+				android:layout_marginTop="5dp"
+				android:layout_width="match_parent"
+				android:layout_height="1px"
+				android:background="@drawable/black_horizontal_divider"/>
+				    
+			<View 
+			    android:layout_marginLeft="20dp"
+        		android:layout_marginRight="20dp"
+			    android:layout_marginBottom="5dp"
+				android:layout_width="match_parent"
+				android:layout_height="1px"
+				android:background="@drawable/white_horizontal_divider"/>
+	    
+	    </LinearLayout>
+    
+	</ScrollView>
+    
+    <include layout="@layout/layout_instructions_layout"/>
+	
+</RelativeLayout>

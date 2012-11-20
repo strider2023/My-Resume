@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF212121">
+        
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true">
+        
+        <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+                        
+            <com.touchmenotapps.myresume.widgets.AppButton
+                android:id="@+id/profile_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_config"
+                android:textSize="32sp"
+                android:padding="10dp"
+                android:gravity="left"/>          
+                
+            <com.touchmenotapps.myresume.widgets.AppButton
+                android:id="@+id/work_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/work_exp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_config"
+                android:textSize="32sp"
+                android:padding="10dip"
+                android:gravity="left"/>    
+                
+            <com.touchmenotapps.myresume.widgets.AppButton 
+                android:id="@+id/projects_btn"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="@string/projects"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_config"
+                android:textSize="32sp"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:gravity="left"/>   
+                
+            <com.touchmenotapps.myresume.widgets.AppButton 
+                android:id="@+id/interests_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/interests"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_config"
+                android:textSize="32sp"
+                android:padding="10dp"
+                android:gravity="left"/>    
+                
+            <com.touchmenotapps.myresume.widgets.AppButton 
+                android:id="@+id/contact_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contact"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_config"
+                android:textSize="32sp"
+                android:padding="10dp"
+                android:gravity="left"/>    
+            
+        </LinearLayout>
+        
+        <View 
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_divider"/>
+        
+        <View 
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@drawable/black_divider"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp">
+        
+        <com.touchmenotapps.myresume.widgets.AppTextView  
+            android:id="@+id/main_first_name_text"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:text="@string/resume_user_first_name"
+	        android:textSize="32sp"
+	        android:background="@android:color/white"
+	        android:textColor="#212121"
+	        android:padding="3dip"/>
+        
+        <com.touchmenotapps.myresume.widgets.AppTextView  
+            android:id="@+id/main_last_name_text"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:text="@string/resume_user_last_name"
+	        android:textSize="32sp"
+	        android:background="#212121"
+	        android:textColor="@android:color/white"
+	        android:padding="3dip"/>
+        
+    </LinearLayout>
+    
+</RelativeLayout>

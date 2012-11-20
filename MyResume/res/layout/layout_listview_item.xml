@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+    <com.touchmenotapps.myresume.widgets.AppTextView
+        android:id="@+id/listview_header_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:layout_marginTop="3dp"
+        android:paddingBottom="10dp"
+        android:gravity="left"
+        android:singleLine="true"
+        android:ellipsize="marquee"/>
+    
+    <com.touchmenotapps.myresume.widgets.AppTextView 
+        android:id="@+id/listview_content_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:gravity="left"/>
+    
+    <View 
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@drawable/black_horizontal_divider"/>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@drawable/white_horizontal_divider"
+        android:layout_marginBottom="3dp"/>
+	
+</LinearLayout>

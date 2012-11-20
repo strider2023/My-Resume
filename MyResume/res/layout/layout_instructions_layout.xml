@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <RelativeLayout
+        android:id="@+id/instrunstions_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CC000000"
+        android:padding="5dp">
+        
+        <ImageView 
+            android:layout_above="@+id/instructions_text"
+            android:scaleType="centerInside"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_demo_swipe"
+            android:contentDescription="@string/navigation_image"/>
+        
+        <com.touchmenotapps.myresume.widgets.AppTextView
+	        android:id="@+id/instructions_text"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:text="@string/navigation_instructions"
+	        android:gravity="center_horizontal"
+	        android:textColor="#FFF5F20B"
+	        android:padding="5dp"
+	        android:textSize="24sp"/>
+        
+    </RelativeLayout>    
+
+</merge>

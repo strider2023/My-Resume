@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Résumé</string>
+    <string name="resume_user_first_name">Arindam</string>
+    <string name="resume_user_middle_name"></string>
+    <string name="resume_user_last_name">Nath</string>
+    <!-- Main Menu button names -->
+    <string name="profile">Profile</string>
+    <string name="work_exp">Work Exp</string>
+    <string name="projects">Projects</string>
+    <string name="interests">Interests</string>
+    <string name="contact">Contact</string>
+    <!-- Profile layout detials -->
+    <string-array name="profile_headers">
+        <item>About Me</item>
+        <item>Education</item>
+        <item>Skills</item>
+        <item>Achievements</item>
+    </string-array>
+    <string-array name="profile_descriptions">
+        <item>Experienced in mobile application development and underlying concepts of mobile software architecture and user interface design. Developing enterprise applications and frameworks.\n\nI have also handled pre sales activity, where my role was to communicate with the client about company\'s technical capabilities and project\'s technical documentation.\n\nHave worked on local as well as remote server databases (for mobile devices). Experienced in developing mobile web application using MVC 4 architecture and HTML 5.\n\nKnowledge about game development technologies and production pipeline and in-depth idea about game designing and gameplay mechanics. Experience in OpenGL ES and 3D programming.\n\nCan work with graphic designing software like Adobe Photoshop (intermediate) and Autodesk Maya (beginner). Knowledge about color theory and typography which were/are actively implemented on all architected software.</item>
+        <item>B.A. (Hons.) in Digital Media (Game Development) from Prifysgol Cymru, Aberystwyth, Wales\n\nStudies focused in game development, IT project management, multimedia design, technical planning, and business case analysis. Created working prototypes for games on numerous gaming platforms."</item>
+        <item>Mobile Software Architecture Planning\n\nMobile Software Solutions Consulting\n\nHandling pre sales activities\n\nAndroid Development\n\niPhone Development\n\nWindows Phone Development\n\nMobile Web Application development using HTML 5 and Database Architecture\n\nGame Development\n\nUI Design</item>
+        <item>“It’s Just a Thought” won the award of Best Original Idea at the International Video Game Festival hoPlay ’11 held in Spain.\n\n\nDiscover India was awarded category winner award in a completion held by Appbazar.</item>
+    </string-array>
+    <!-- Work Exp details -->
+    <string-array name="company_names">
+        <item>Source HOV</item>
+        <item>Congruent Infotech</item>
+        <item>Black Pearl Infotech</item>
+        <item>Love Handle Developers</item>
+        <item>Yellow Monkey Studios Pvt. Ltd.</item>
+        <item>Freelancer</item>
+        <item>Touch Me Not Apps (Indie)</item>
+    </string-array>
+    <string-array name="company_spans">
+        <item>April 2012 – Present</item>
+        <item>April 2011 – April 2012</item>
+        <item>October 2010 – March 2011</item>
+        <item>September 2010 – October 2010</item>
+        <item>February 2010 – April 2010</item>
+        <item>October 2010 – July 2011</item>
+        <item>October 2011 – Present</item>
+    </string-array>
+    <string-array name="company_work_summary">
+        <item>Involved in developing software solutions for Android OS. Also play an active part in providing assistance to the product manager in conception of idea, technical/architectural documentation and implementation.</item>
+        <item>Working on multiple mobile platforms and mobile web applications development. Training freshers and experienced people about mobile technologies. Involved in handling company\'s first product Xpense Manager for multiple platforms which also included architecture of the application. Worked on various enterprise level off-shore projects with companies like 3M, Premera, Salford, Saksoft etc.</item>
+        <item>Lead developer and architect for games and applications on Apple iPhone /iPad and Android Handsets. Management of a team engaged in development of applications for Apple iPhone/ iPad and Android Handsets. Have also worked as a Project Manager on 2 projects and was a part of fresher training team.</item>
+        <item>Lead consultant for games on Apple iPhone and iPad. Management of a team engaged in development of applications for Apple iPhone and iPad. Design Consultant for in-house game productions.</item>
+        <item>As a mobile game developer worked on the game "It's just a thought". Create a 2D game engine for Android Handsets. Research on implementation of mobile phone cameras as a method of input in games.</item>
+        <item>Was involved as a freelancer for developing applications on various mobile platforms.</item>
+        <item>Working on android applications and games. More detials can be found on my blog touchmenotapps.tumblr.com</item>
+    </string-array> 
+    <!-- Interests Details -->
+    <string-array name="interests_name_with_links">
+        <item>photography</item>
+        <item>blogging</item>
+        <item>game dev</item>
+    </string-array>
+    <string-array name="interests_link">
+        <item>http://www.flickr.com/photos/arindam_nath/</item>
+        <item>http://strider2023.tumblr.com/</item>
+        <item></item>
+    </string-array>
+    <string-array name="interests_name_without_links">
+        <item>drawing</item>
+        <item>cooking</item>
+        <item>power-building</item>
+        <item>swimming</item>
+    </string-array>
+    <!-- Contact Details -->
+    <string name="contact_address">33/15 G.V. House, Abith Nagar\nNear Choolimedu Police Station\nChoolimedu \nChennai - 94</string>
+    <string-array name="contact_phone">
+        <item>+919884312488</item>
+        <item>+918144071847</item>
+    </string-array>
+    <string-array name="contact_mail">
+        <item>strider2023@gmail.com</item>
+        <item>arindamnath_1989@rediffmail.com</item>
+    </string-array>
+    <string name="send_mail">Send Mail</string>
+    <string name="call_me">Call Me</string>
+    <string name="mail_me">Mail Me</string>
+    <!-- Error Messages -->
+    <string name="error_interenet_connection">Internet connection not available!</string>
+    <string name="error_redirection_link">Link not specified!</string>
+    <!-- Navigation menu details -->
+    <string name="navigation_instructions">Swipe left or right to navigate between details. Tap to dissmiss.</string>
+    <string name="navigation_image">Navigation image.</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        
+	 <com.touchmenotapps.myresume.widgets.AppTextView   
+	    android:id="@+id/contact_header_text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="right"
+        android:text="@string/contact"
+        android:textSize="@dimen/header_text_size"
+        android:textColor="#FF3FB3D6"
+        android:layout_marginRight="-5dp"
+        android:paddingTop="2dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:layout_alignParentRight="true"/>
+	 
+	 <com.touchmenotapps.myresume.widgets.AppTextView  
+		android:id="@+id/address_text" 
+		android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:textColor="@android:color/white"
+	    android:gravity="center"
+	    android:textSize="26sp"
+	    android:padding="10dp"
+		android:layout_centerInParent="true"/>
+	 	 
+	<LinearLayout 
+		android:id="@+id/contact_footer_layout"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:paddingBottom="5dp"
+	    android:layout_marginRight="-5dp"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true">
+		
+	    	<ImageButton 
+	    	    android:id="@+id/contact_call_btn"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:background="@android:color/transparent"
+	    	    android:src="@drawable/ic_call"
+	    	    android:layout_marginRight="20dp"
+	    	    android:contentDescription="@string/call_me"/>
+	    	
+	    	<ImageButton 
+	    	    android:id="@+id/contact_mail_btn"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:background="@android:color/transparent"
+	    	    android:src="@drawable/ic_mail"
+	    	    android:contentDescription="@string/mail_me"/>
+	     
+	</LinearLayout>
+    
+</RelativeLayout>

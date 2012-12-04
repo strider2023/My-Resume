@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.touchmenotapps.myresume.widgets.AppTextView    
+	    android:id="@+id/profile_header_text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="right"
+        android:text="@string/profile"
+        android:textSize="@dimen/header_text_size"
+        android:textColor="#FF3FB3D6"
+        android:layout_marginRight="-5dip"
+        android:paddingTop="2dip"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:layout_alignParentRight="true"/>
+    
+    <TextSwitcher
+		android:id="@+id/profile_subheader_text" 
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent" 
+		android:ellipsize="marquee"
+		android:marqueeRepeatLimit="marquee_forever"
+		android:layout_below="@+id/profile_header_text"
+		android:scrollHorizontally="true"
+		android:layout_margin="10dp"/>
+        
+    <ScrollView 
+        android:id="@+id/profile_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_below="@+id/profile_subheader_text"
+        android:layout_margin="10dp"
+        android:scrollbars="none"
+        android:fadingEdge="none"
+        android:overScrollMode="never">
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            	        
+	        <TextSwitcher
+	        	android:id="@+id/profile_body_text" 
+			    android:layout_height="wrap_content"
+			    android:layout_width="match_parent" 
+				android:ellipsize="marquee"
+				android:marqueeRepeatLimit="marquee_forever"
+				android:scrollHorizontally="true"/>
+	        
+	        <View 
+	            android:layout_marginLeft="20dp"
+        		android:layout_marginRight="20dp"
+				android:layout_width="match_parent"
+				android:layout_height="1px"
+				android:background="@drawable/black_horizontal_divider"/>
+				    
+			<View 
+			    android:layout_marginLeft="20dp"
+        		android:layout_marginRight="20dp"
+			    android:layout_marginBottom="5dp"
+				android:layout_width="match_parent"
+				android:layout_height="1px"
+				android:background="@drawable/white_horizontal_divider"/>
+        
+        </LinearLayout>
+            
+	</ScrollView>
+
+    <include layout="@layout/layout_instructions_layout"/>
+    
+</RelativeLayout>

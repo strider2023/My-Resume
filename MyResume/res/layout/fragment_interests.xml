@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.touchmenotapps.myresume.widgets.AppTextView    
+	    android:id="@+id/interests_header_text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="right"
+        android:text="@string/interests"
+        android:textSize="@dimen/header_text_size"
+        android:textColor="#FF3FB3D6"
+        android:layout_marginRight="-5dp"
+        android:paddingTop="2dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:layout_alignParentRight="true"/>
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/interests_header_text"
+        android:layout_alignParentBottom="true"
+        android:fillViewport="true"
+        android:layout_marginLeft="10dp"
+        android:scrollbars="none"
+        android:fadingEdge="none"
+        android:overScrollMode="never">
+        
+        <LinearLayout 
+            android:id="@+id/interests_container_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+                
+    </ScrollView>
+    
+</RelativeLayout>

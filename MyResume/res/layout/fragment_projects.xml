@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <com.touchmenotapps.myresume.widgets.AppTextView 
+	    android:id="@+id/projects_header_text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="right"
+        android:text="@string/projects"
+        android:textSize="@dimen/header_text_size"
+        android:textColor="#FF3FB3D6"
+        android:layout_marginRight="-5dip"
+        android:paddingTop="2dip"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:layout_alignParentRight="true"/>
+        
+	<TextSwitcher
+    	android:id="@+id/projects_company_name_text" 
+    	android:layout_below="@+id/projects_header_text"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent" 
+		android:singleLine="true"
+		android:ellipsize="marquee"
+		android:marqueeRepeatLimit="marquee_forever"
+		android:scrollHorizontally="true"
+		android:layout_margin="10dp"/>
+    
+    <ListView 
+        android:id="@+id/projects_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/projects_company_name_text"
+        android:divider="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:layout_marginLeft="10dp"
+    	android:layout_marginRight="10dp"
+    	android:scrollbars="none"
+    	android:fadingEdge="none"
+    	android:overScrollMode="never"/>
+    
+    <include layout="@layout/layout_instructions_layout"/>
+
+</RelativeLayout>

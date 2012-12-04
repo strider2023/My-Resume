@@ -18,29 +18,14 @@ public final class R {
         public static final int rail_out=0x7f040006;
         public static final int shake=0x7f040007;
     }
-    public static final class array {
-        /**  Work Exp details 
-         */
-        public static final int company_names=0x7f080002;
-        public static final int company_spans=0x7f080003;
-        public static final int company_work_summary=0x7f080004;
-        public static final int contact_mail=0x7f080009;
-        public static final int contact_phone=0x7f080008;
-        public static final int interests_link=0x7f080006;
-        /**  Interests Details 
-         */
-        public static final int interests_name_with_links=0x7f080005;
-        public static final int interests_name_without_links=0x7f080007;
-        public static final int profile_descriptions=0x7f080001;
-        /**  Profile layout detials 
-         */
-        public static final int profile_headers=0x7f080000;
-    }
     public static final class attr {
     }
+    public static final class color {
+        public static final int app_bg_color=0x7f080000;
+    }
     public static final class dimen {
-        public static final int header_text_size=0x7f060000;
-        public static final int username_text_size=0x7f060001;
+        public static final int header_text_size=0x7f050000;
+        public static final int username_text_size=0x7f050001;
     }
     public static final class drawable {
         public static final int black_divider=0x7f020000;
@@ -60,35 +45,39 @@ public final class R {
         public static final int white_horizontal_divider=0x7f02000e;
     }
     public static final class id {
-        public static final int address_text=0x7f090001;
-        public static final int contact_btn=0x7f09000f;
-        public static final int contact_call_btn=0x7f090003;
-        public static final int contact_footer_layout=0x7f090002;
-        public static final int contact_header_text=0x7f090000;
-        public static final int contact_mail_btn=0x7f090004;
-        public static final int first_name_text=0x7f09001a;
-        public static final int instructions_text=0x7f090006;
-        public static final int instrunstions_layout=0x7f090005;
-        public static final int interests_btn=0x7f09000e;
-        public static final int interests_container_view=0x7f090008;
-        public static final int interests_header_text=0x7f090007;
-        public static final int last_name_text=0x7f09001c;
-        public static final int listview_content_text=0x7f09000a;
-        public static final int listview_header_text=0x7f090009;
-        public static final int main_first_name_text=0x7f090010;
-        public static final int main_last_name_text=0x7f090011;
-        public static final int middle_name_text=0x7f09001b;
-        public static final int profile_body_text=0x7f090015;
-        public static final int profile_btn=0x7f09000b;
-        public static final int profile_header_text=0x7f090012;
-        public static final int profile_scrollview=0x7f090014;
-        public static final int profile_subheader_text=0x7f090013;
-        public static final int projects_btn=0x7f09000d;
-        public static final int projects_company_name_text=0x7f090017;
-        public static final int projects_header_text=0x7f090016;
-        public static final int projects_listview=0x7f090018;
-        public static final int splash_header_text=0x7f090019;
-        public static final int work_btn=0x7f09000c;
+        public static final int address_text=0x7f090007;
+        public static final int base_second_pane_container=0x7f090001;
+        public static final int base_single_pane_container=0x7f090000;
+        public static final int contact_btn=0x7f090011;
+        public static final int contact_call_btn=0x7f090009;
+        public static final int contact_footer_layout=0x7f090008;
+        public static final int contact_header_text=0x7f090006;
+        public static final int contact_mail_btn=0x7f09000a;
+        public static final int first_name_text=0x7f090003;
+        public static final int instructions_text=0x7f090023;
+        public static final int instrunstions_layout=0x7f090022;
+        public static final int interests_btn=0x7f090010;
+        public static final int interests_container_view=0x7f09000c;
+        public static final int interests_header_text=0x7f09000b;
+        public static final int last_name_text=0x7f090005;
+        public static final int listview_content_text=0x7f090025;
+        public static final int listview_header_text=0x7f090024;
+        public static final int main_first_name_text=0x7f090012;
+        public static final int main_last_name_text=0x7f090014;
+        public static final int main_menu_divider=0x7f090015;
+        public static final int main_middle_name_text=0x7f090013;
+        public static final int middle_name_text=0x7f090004;
+        public static final int profile_body_text=0x7f090019;
+        public static final int profile_btn=0x7f09000d;
+        public static final int profile_header_text=0x7f090016;
+        public static final int profile_scrollview=0x7f090018;
+        public static final int profile_subheader_text=0x7f090017;
+        public static final int projects_btn=0x7f09000f;
+        public static final int projects_company_name_text=0x7f09001b;
+        public static final int projects_header_text=0x7f09001a;
+        public static final int projects_listview=0x7f09001c;
+        public static final int splash_header_text=0x7f090002;
+        public static final int work_btn=0x7f09000e;
         public static final int work_company_name_text=0x7f09001f;
         public static final int work_company_span_text=0x7f090020;
         public static final int work_company_summary_text=0x7f090021;
@@ -96,44 +85,74 @@ public final class R {
         public static final int work_scrollview=0x7f09001e;
     }
     public static final class layout {
-        public static final int layout_contact=0x7f030000;
-        public static final int layout_instructions_layout=0x7f030001;
-        public static final int layout_interests=0x7f030002;
-        public static final int layout_listview_item=0x7f030003;
-        public static final int layout_main=0x7f030004;
-        public static final int layout_profile=0x7f030005;
-        public static final int layout_projects=0x7f030006;
-        public static final int layout_splash=0x7f030007;
-        public static final int layout_work_exp=0x7f030008;
+        public static final int activity_base=0x7f030000;
+        public static final int activity_splash=0x7f030001;
+        public static final int fragment_contact=0x7f030002;
+        public static final int fragment_interests=0x7f030003;
+        public static final int fragment_main=0x7f030004;
+        public static final int fragment_profile=0x7f030005;
+        public static final int fragment_projects=0x7f030006;
+        public static final int fragment_work_exp=0x7f030007;
+        public static final int layout_instructions_layout=0x7f030008;
+        public static final int layout_listview_item=0x7f030009;
     }
     public static final class string {
-        public static final int app_name=0x7f070000;
-        public static final int call_me=0x7f07000b;
-        public static final int contact=0x7f070008;
-        /**  Contact Details 
-         */
-        public static final int contact_address=0x7f070009;
+        public static final int app_name=0x7f060000;
+        public static final int call_me=0x7f060007;
+        public static final int contact=0x7f060005;
         /**  Error Messages 
          */
-        public static final int error_interenet_connection=0x7f07000d;
-        public static final int error_redirection_link=0x7f07000e;
-        public static final int interests=0x7f070007;
-        public static final int mail_me=0x7f07000c;
-        public static final int navigation_image=0x7f070010;
+        public static final int error_interenet_connection=0x7f06000a;
+        public static final int error_parsing=0x7f06000c;
+        public static final int error_redirection_link=0x7f06000b;
+        public static final int interests=0x7f060004;
+        public static final int loading=0x7f060009;
+        public static final int mail_me=0x7f060008;
+        public static final int navigation_image=0x7f06000e;
         /**  Navigation menu details 
          */
-        public static final int navigation_instructions=0x7f07000f;
+        public static final int navigation_instructions=0x7f06000d;
         /**  Main Menu button names 
          */
-        public static final int profile=0x7f070004;
-        public static final int projects=0x7f070006;
-        public static final int resume_user_first_name=0x7f070001;
-        public static final int resume_user_last_name=0x7f070003;
-        public static final int resume_user_middle_name=0x7f070002;
-        public static final int send_mail=0x7f07000a;
-        public static final int work_exp=0x7f070005;
+        public static final int profile=0x7f060001;
+        public static final int projects=0x7f060003;
+        public static final int send_mail=0x7f060006;
+        public static final int work_exp=0x7f060002;
     }
-    public static final class xml {
-        public static final int projects_data=0x7f050000;
+    public static final class style {
+        /** 
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+    
+
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        
+
+        Base application theme for API 10. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 10 devices.
+    
+ API 10 theme customizations can go here. 
+
+        Base application theme for API 10. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 10 devices.
+    
+ API 10 theme customizations can go here. 
+
+        Base application theme for API 10. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 10 devices.
+    
+ API 10 theme customizations can go here. 
+         */
+        public static final int AppBaseTheme=0x7f070000;
+        /**  Application theme. 
+         */
+        public static final int AppTheme=0x7f070001;
     }
 }
